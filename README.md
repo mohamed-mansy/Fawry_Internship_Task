@@ -22,4 +22,4 @@ mygrep.sh is a simplified, grep-like Bash script that searches for a given patte
    - Invert match with line numbers:
         - ./mygrep.sh -vn "hello" file.txt
 
-** This script is useful for quick searches in files without needing full grep functionality. 🚀 **
+**This script is useful for quick searches in files without needing full grep functionality. 🚀**
