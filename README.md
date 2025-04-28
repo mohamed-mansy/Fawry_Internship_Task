@@ -14,22 +14,22 @@ mygrep.sh is a simplified, grep-like Bash script that searches for a given patte
 4. Usage Examples:
    - Basic search:
      ```
-        - ./mygrep.sh "hello" file.txt
+        ./mygrep.sh "hello" file.txt
      ```
      
    - Show line numbers:
    ```
-        - ./mygrep.sh -n "hello" file.txt
+        ./mygrep.sh -n "hello" file.txt
    ```
   
    - Invert match (non-matching lines):
    ```
-        - ./mygrep.sh -v "hello" file.txt
+        ./mygrep.sh -v "hello" file.txt
    ```
   
    - Invert match with line numbers:
    ```
-        - ./mygrep.sh -vn "hello" file.txt
+        ./mygrep.sh -vn "hello" file.txt
    ```
 
 **This script is useful for quick searches in files without needing full grep functionality. 🚀**
