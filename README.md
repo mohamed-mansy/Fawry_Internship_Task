@@ -9,3 +9,15 @@ mygrep.sh is a simplified, grep-like Bash script that searches for a given patte
    - -v (or --invert-match) → Shows lines that do not contain the pattern.
    - -vn (or -nv) → Combines -v and -n (shows non-matching lines with line numbers).
    - -h (or --help) → Displays usage instructions.
+3. Usage Examples:
+   - Basic search:
+   - ./mygrep.sh "hello" file.txt
+     
+   - Show line numbers:
+   - ./mygrep.sh -n "hello" file.txt
+  
+   - Invert match (non-matching lines):
+   - ./mygrep.sh -v "hello" file.txt
+  
+   - Invert match with line numbers:
+   - ./mygrep.sh -vn "hello" file.txt
