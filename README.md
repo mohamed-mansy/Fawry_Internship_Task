@@ -11,7 +11,7 @@ mygrep.sh is a simplified, grep-like Bash script that searches for a given patte
    - -h (or --help) → Displays usage instructions.
 3. Usage Examples:
    - Basic search:
-        #- ./mygrep.sh "hello" file.txt
+   =>>>>>> ./mygrep.sh "hello" file.txt
      
    - Show line numbers:
    - ./mygrep.sh -n "hello" file.txt
